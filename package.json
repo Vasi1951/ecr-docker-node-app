@@ -2,9 +2,9 @@
   "name": "localstack-node",
   "version": "1.0.0",
   "description": "Node.js app connecting to LocalStack / Floci (local AWS emulators)",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "deploy": "node deploy.js",
     "server": "node server.js",
     "dev": "node --watch server.js"
